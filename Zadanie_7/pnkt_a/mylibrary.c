@@ -50,9 +50,12 @@ void paste(char file[], int arr[], long unsigned int size){
     close(pth);
 }
 
-void copy(int arr_1[], char arr_2[], int size){
+void copy(int arr_1[], int arr_2[], int size){
     int i;
-    for(i = 0; i < size; i++)   arr_2[i] = arr_1[i];
+    for(i = 0; i < size; i++) {  
+        arr_2[i] = arr_1[i];
+        printf("%c \n",arr_1[i]);
+    }
     printf("skopiowano pierwsze %i znaków\n", size);
 }
 

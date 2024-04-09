@@ -13,7 +13,7 @@ void load(char file[], int arr[]);
 
 void paste(char file[], int arr[], long unsigned int size);
 
-void copy(int arr_1[], char arr_2[], int size);
+void copy(int arr_1[], int arr_2[], int size);
 
 int if_ch(int c);
 
